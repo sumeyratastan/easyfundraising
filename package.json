@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/register": "^7.18.9",
+    "@wdio/cli": "^8.0.2",
+    "@wdio/cucumber-framework": "^8.0.2",
+    "@wdio/local-runner": "^8.0.3",
+    "@wdio/spec-reporter": "^8.0.0",
+    "chai": "^4.3.7",
+    "chromedriver": "^108.0.0",
+    "wdio-chromedriver-service": "^8.0.0"
+  },
+  "scripts": {
+    "test": "wdio run ./wdio.conf.js"
+  },
+  "dependencies": {
+    "@cucumber/cucumber-expressions": "^16.1.0"
+  }
+}
